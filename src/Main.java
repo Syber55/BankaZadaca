@@ -5,8 +5,8 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		Scanner in = new Scanner(System.in);
+		load();
 		while (true) {
-			load();
 			System.out.println();
 			System.out.println("Dobrodosli u banku, Odaberite jednu od opcija:");
 			System.out.println("1. Kreiranje racuna");
